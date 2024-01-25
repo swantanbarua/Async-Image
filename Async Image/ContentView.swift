@@ -26,6 +26,7 @@ struct ContentView: View {
                 switch phase {
                 case .success(let image):
                     image
+                        .imageModifier()
                     
                 case .empty:
                     Image(systemName: "photo.circle.fill")
