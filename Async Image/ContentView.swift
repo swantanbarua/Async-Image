@@ -27,6 +27,7 @@ struct ContentView: View {
                 case .success(let image):
                     image
                         .imageModifier()
+                        .transaction(.scale)
                     
                 case .empty:
                     Image(systemName: "photo.circle.fill")
