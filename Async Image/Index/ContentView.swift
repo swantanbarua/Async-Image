@@ -8,6 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    // MARK: - PROPERTIES
+    private let imageURLString = "https://credo.academy/.credo-academy@3x.png"
+    
+    // MARK: - BODY
     var body: some View {
         VStack {
             Image(systemName: "globe")
