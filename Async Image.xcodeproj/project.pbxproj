@@ -29,9 +29,30 @@
 		5EDF4C612CF9D4FB00ECA082 /* Async ImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Async ImageUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5EDF4C782CF9D71600ECA082 /* Exceptions for "Async Image" folder in "Async ImageTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ImageExtension.swift,
+			);
+			target = 5EDF4C562CF9D4FB00ECA082 /* Async ImageTests */;
+		};
+		5EDF4C792CF9D71600ECA082 /* Exceptions for "Async Image" folder in "Async ImageUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ImageExtension.swift,
+			);
+			target = 5EDF4C602CF9D4FB00ECA082 /* Async ImageUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		5EDF4C492CF9D4F800ECA082 /* Async Image */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5EDF4C782CF9D71600ECA082 /* Exceptions for "Async Image" folder in "Async ImageTests" target */,
+				5EDF4C792CF9D71600ECA082 /* Exceptions for "Async Image" folder in "Async ImageUITests" target */,
+			);
 			path = "Async Image";
 			sourceTree = "<group>";
 		};
