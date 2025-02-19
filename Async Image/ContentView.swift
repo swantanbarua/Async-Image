@@ -30,6 +30,7 @@ struct ContentView: View {
             case .success(let image):
                 image
                     .imageModifier()
+                    .transition(.scale)
                 
             case .empty:
                 Image(systemName: "photo.circle.fill")
