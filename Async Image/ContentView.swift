@@ -33,11 +33,11 @@ struct ContentView: View {
                     .transition(.scale)
                 
             case .empty:
-                Image(systemName: "photo.circle.fill")
+                Image(systemName: ImageConstants.photoCircleFill)
                     .iconModifier()
                 
             case .failure(_):
-                Image(systemName: "ant.circle.fill")
+                Image(systemName: ImageConstants.antCircleFill)
                     .iconModifier()
                 
             default:
