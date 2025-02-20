@@ -10,8 +10,9 @@ import SwiftUI
 struct ContentView: View {
     
     // MARK: - PROPERTIES
-    private let imageURLString = "https://credo.academy/credo-academy@3x.png"
+    private let imageURLString = "https://hws.dev/paul.jpg"
     
+    // MARK: - BODY
     var body: some View {
         AsyncImage(
             url: URL(string: imageURLString),
